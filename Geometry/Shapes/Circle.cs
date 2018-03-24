@@ -3,6 +3,10 @@ using Geometry.Core;
 
 namespace Geometry.Shapes
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Класс окружности
+    /// </summary>
     public class Circle : Shape
     {
         /// <inheritdoc />
@@ -15,6 +19,9 @@ namespace Geometry.Shapes
             Radius = radius;
         }
 
+        /// <summary>
+        /// Радиус
+        /// </summary>
         public double Radius { get; }
 
         public override double Area()

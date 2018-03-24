@@ -44,5 +44,13 @@ namespace Geometry.UnitTests
             var triangle = new Triangle(side, circumscribedCircleRadius, circumscribedCircleRadius);
             Assert.Equal(5 * triangle.Area(), regularPolygon.Area());
         }
+
+        [Theory]
+        [InlineData(5, 7)]
+        public void IsRectangleAreaCorrect(double basis, double height)
+        {
+            var rectangle = new Rectangle(basis, height);
+            Assert.Equal(basis * height, rectangle.Area());
+        }
     }
 }

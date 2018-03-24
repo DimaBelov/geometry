@@ -1,5 +1,8 @@
 ﻿namespace Geometry.Core
 {
+    /// <summary>
+    /// Плоская геометрическая фигура
+    /// </summary>
     public interface IShape
     {
         /// <summary>

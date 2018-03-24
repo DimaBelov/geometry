@@ -27,6 +27,9 @@ namespace Geometry.Shapes
             IsRightTriangle = DefineIsRightTriangle();
         }
 
+        /// <summary>
+        /// Признак прямоугольного треугольника
+        /// </summary>
         public bool IsRightTriangle { get; }
         
         bool DefineIsRightTriangle()
