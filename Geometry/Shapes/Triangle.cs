@@ -46,8 +46,8 @@ namespace Geometry.Shapes
         /// </summary>
         /// <returns>Площадь треугольника</returns>
         public override double Area()
-        { 
-            return Math.Sqrt(_halfPerimeter* (_halfPerimeter - Sides[0]) * (_halfPerimeter - Sides[1]) * (_halfPerimeter - Sides[2]));
+        {
+            return Math.Sqrt(_halfPerimeter * (_halfPerimeter - Sides[0]) * (_halfPerimeter - Sides[1]) * (_halfPerimeter - Sides[2]));
         }
     }
 }
