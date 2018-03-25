@@ -29,7 +29,7 @@ namespace Geometry.UnitTests
 
         [Theory]
         [InlineData(3, 4, 5)]
-        public void IsTriangleRight(double a, double b, double c)
+        public void IsTriangleRightTest(double a, double b, double c)
         {
             var triangle = new Triangle(a, b, c);
             Assert.Equal(true, triangle.IsRightTriangle);
@@ -37,7 +37,7 @@ namespace Geometry.UnitTests
 
         [Theory]
         [InlineData(3, 5)]
-        public void IsRegularPolygonAreaCorrect(double side, int topCount)
+        public void IsRegularPolygonAreaCorrectTest(double side, int topCount)
         {
             var regularPolygon = new RegularPolygon(side, topCount);
             var circumscribedCircleRadius = side / (2 * Math.Sin(Math.PI / topCount));
@@ -47,7 +47,7 @@ namespace Geometry.UnitTests
 
         [Theory]
         [InlineData(5, 7)]
-        public void IsRectangleAreaCorrect(double basis, double height)
+        public void IsRectangleAreaCorrectTest(double basis, double height)
         {
             var rectangle = new Rectangle(basis, height);
             Assert.Equal(basis * height, rectangle.Area());
