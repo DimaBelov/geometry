@@ -1,5 +1,6 @@
 ﻿namespace Geometry.Core
 {
+    /// <inheritdoc />
     /// <summary>
     /// Базовый класс плоской геометрической фигуры
     /// </summary>
