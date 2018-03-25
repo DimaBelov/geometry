@@ -22,7 +22,7 @@ namespace Geometry.Shapes
         {
             _halfPerimeter = Sides.Sum() / 2;
             if(_halfPerimeter <= Sides.Max())
-                throw new ArgumentOutOfRangeException("Полупериметр треугольника должен быть больше его самой длинной стороны");
+                throw new ArgumentOutOfRangeException("Полупериметр треугольника должен быть больше любой его стороны");
 
             IsRightTriangle = DefineIsRightTriangle();
         }

@@ -1,0 +1,13 @@
+Geometry.UnitTests (5 tests) [0:00.048] Success
+ Geometry.UnitTests (5 tests) [0:00.048] Success
+  ShapeTests (5 tests) [0:00.048] Success
+   IsCircleAreaCorrectTest (1 test) [0:00.001] Success: Test not run
+    IsCircleAreaCorrectTest(radius: 1) [0:00.001] Success
+   IsRectangleAreaCorrect (1 test) [0:00.001] Success: Test not run
+    IsRectangleAreaCorrect(basis: 5, height: 7) [0:00.001] Success
+   IsRegularPolygonAreaCorrect (1 test) [0:00.004] Success
+    IsRegularPolygonAreaCorrect(side: 3, topCount: 5) [0:00.004] Success
+   IsTriangleAreaCorrectTest (1 test) [0:00.036] Success
+    IsTriangleAreaCorrectTest(a: 1,5, b: 2, c: 3) [0:00.036] Success
+   IsTriangleRight (1 test) [0:00.006] Success
+    IsTriangleRight(a: 3, b: 4, c: 5) [0:00.006] Success

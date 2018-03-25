@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Geometry.Core;
 
@@ -14,6 +15,9 @@ namespace Geometry.Shapes
 
         protected Polygon(params double[] sides)
         {
+            if(sides.Length < 3)
+                throw new ArgumentException("Для построения многоугольника необходимо минимум 3 стороны");
+
             Sides = sides.ToList();
         }
     }
