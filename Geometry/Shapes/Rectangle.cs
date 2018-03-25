@@ -14,7 +14,7 @@ namespace Geometry.Shapes
         /// </summary>
         /// <param name="basis">Основание</param>
         /// <param name="height">Высота</param>
-        public Rectangle(double basis, double height) : base(basis, height) { }
+        public Rectangle(double basis, double height) : base(basis, height, basis, height) { }
 
         /// <summary>
         /// Вычисление площади прямоугольника (путём умножения основания на высоту)
